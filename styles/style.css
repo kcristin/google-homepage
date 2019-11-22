@@ -8,41 +8,5 @@ body {
     background-color: #fff;
     color: #222;
     display: block;
-}
-
-body, td, a, p, .h {
     font-family: arial, sans-serif;
 }
-
-.search-container {
-    background-color: #fff;
-    display: flex;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-    height: 44px;
-    width: 582px;
-}
-
-.btn {
-    background-color: transparent;
-    border-color: transparent;
-    display: block;
-}
-
-#search-icon {
-    color: #9AA0A6;
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    margin-top: 3px;
-    position: relative;
-}
-
-#footarea {
-    background: #f2f2f2;
-    line-height: 40px;
-    min-width: 980px;
-    border-top: 1px solid #e4e4e4;
-    display: block;
-}
-
