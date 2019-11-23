@@ -18,11 +18,11 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: pink;
+    background-color: #fff;
 }
 
 .header {
-    background-color: white;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     height: 47px;
@@ -30,8 +30,8 @@ body {
 }
 
 .upper-left {
-    position: relative;
-    background-color: salmon;
+    position: fixed;
+    background-color: transparent;
     width: 300px;
     height: 47px;
     top: 0;
@@ -58,6 +58,54 @@ body {
 #about {
     margin-left: 10px
 }
+
+.upper-right {
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    right: 11px;
+}
+
+.right-links {
+    position: relative;
+    padding-left: 15px;
+    margin-top: 23px;
+    display: inline-block;
+    font: 13px arial,sans-serif;
+    color: rgba(0,0,0,0.87)
+}   
+
+.right-icons {
+    position: relative;
+    padding-left: 15px;
+    bottom: 4px;
+    margin-top: 23px;
+    display: inline-block;
+    font: 13px arial,sans-serif;
+    color: #222;
+    opacity: 65%;
+}   
+
+.right-icons:visited {
+    color: #222;
+    opacity: 85%;
+}
+
+.right-icons:hover {
+    color: #222;
+    opacity: 100%;
+}
+
+#apps {
+    padding-left: 2px;
+}
+
+#account {
+    padding-right: 29px;
+}
+
 
 .center {
     background-color: #fff;
@@ -114,7 +162,7 @@ body {
 
 .below-bar {
     margin-top: 10px;
-    background-color: red;
+    background-color: transparent;
     width: 300px;
     height: 100px;
     position: relative;
