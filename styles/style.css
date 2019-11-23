@@ -29,6 +29,8 @@ body {
     top: 0;
 }
 
+
+
 .center {
     background-color: #fff;
     width: 584px;
@@ -70,7 +72,7 @@ body {
     margin: 0;
     padding:0;
     border: none;
-    margin-top: 9px;
+    margin-top: 5px;
     font: 16px arial,sans-serif;
 }
 
@@ -80,6 +82,38 @@ body {
 
 #search-query:focus {
     outline: none;
+}
+
+.below-bar {
+    margin-top: 10px;
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.search-lucky {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin-top: 20px;
+    padding: 0 16px;
+    font: 14px arial, sans-serif;
+    color: #5F6368;
+    border-radius: 4px;
+}
+
+#google-search {
+    position: absolute;
+    left: 0px;
+    margin-left: 3px;
+}
+
+#lucky {
+    position: absolute;
+    right: 13px;
+    margin-right: 3px;
 }
 
 .footer {
