@@ -135,6 +135,7 @@ body {
     border: transparent;
     margin-top: 9px;
     color: #9AA0A6;
+    outline: none;
 }
 
 #search {
@@ -184,12 +185,14 @@ body {
     position: absolute;
     left: 0px;
     margin-left: 3px;
+    outline: none;
 }
 
 #lucky {
     position: absolute;
     right: 13px;
     margin-right: 3px;
+    outline: none;
 }
 
 .footer {
