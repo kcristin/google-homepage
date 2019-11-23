@@ -29,7 +29,35 @@ body {
     top: 0;
 }
 
+.upper-left {
+    position: relative;
+    background-color: salmon;
+    width: 300px;
+    height: 47px;
+    top: 0;
+    left: 0;
+}
 
+.left {
+    position: relative;
+    padding-left: 15px;
+    margin-top: 23px;
+    display: inline-block;
+    font: 13px arial,sans-serif;
+}
+
+.anchor {
+    color: #222;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    text-decoration: underline;
+}
+
+#about {
+    margin-left: 10px
+}
 
 .center {
     background-color: #fff;
