@@ -181,6 +181,10 @@ body {
     border-radius: 4px;
 }
 
+.search-lucky:hover {
+    border: 1px solid rgb(186, 186, 186);
+}
+
 #google-search {
     position: absolute;
     left: 0px;
