@@ -47,7 +47,8 @@ body {
 }
 
 .anchor {
-    color: #222;
+    color: #000000;
+    opacity: 75%;
     text-decoration: none;
 }
 
@@ -65,7 +66,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     top: 0;
-    right: 11px;
+    right: 10px;
 }
 
 .right-links {
@@ -74,7 +75,7 @@ body {
     margin-top: 23px;
     display: inline-block;
     font: 13px arial,sans-serif;
-    color: rgba(0,0,0,0.87)
+    color: #222;
 }   
 
 .right-icons {
@@ -88,6 +89,22 @@ body {
     opacity: 65%;
 }   
 
+#gmail.anchor {
+    color: #000000;
+}
+
+#gmail.anchor:hover {
+    color: #222;
+}
+
+#images.anchor {
+    color: #000000;
+}
+
+#images.anchor:hover {
+    color:#222;
+}
+
 .right-icons:visited {
     color: #222;
     opacity: 85%;
@@ -99,7 +116,7 @@ body {
 }
 
 #apps {
-    padding-left: 2px;
+    padding-left: 3px;
 }
 
 #account {
@@ -242,4 +259,40 @@ body {
 
 .lower-links #business, #how-search-works {
     padding-left: 23px;
+}
+
+.lower-right {
+    position: fixed;
+    background-color: transparent;
+    padding-left: 3px;
+    font: 13px arial,sans-serif;
+    bottom: 13px;
+    right: 0;
+}
+
+.l-right {
+    position: relative;
+    background-color: transparent;
+    padding-right: 27px;
+    color: #5F6368;
+    text-decoration: none;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.l-left:hover {
+    text-decoration: underline;
+}
+
+#privacy {
+    left: 4px;
+}
+
+#terms {
+    left: 1px;
+}
+
+#settings {
+    right: 3px;
 }
